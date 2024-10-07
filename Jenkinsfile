@@ -5,7 +5,7 @@ pipeline {
         stage('Tests') {
             agent {
                 docker {
-                    image 'bitnami/dotnet-sdk'
+                    image 'mcr.microsoft.com/dotnet/sdk:8.0'
                     reuseNode true
                 }
             }
