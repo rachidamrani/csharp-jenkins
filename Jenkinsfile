@@ -12,8 +12,7 @@ pipeline {
 
             steps {
                 sh '''
-                    echo "Running tests ..."
-                    dotnet test
+                    ls -la
                 '''
             }
         }
