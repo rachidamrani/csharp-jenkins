@@ -38,6 +38,7 @@ public class CalculatorTests
     [Theory]
     [InlineData(2, 4, 8)]
     [InlineData(-2, -3, 6)]
+    [InlineData(-2, 3, -6)]
     public void Multiply_TwoNumbers_ReturnsCorrectResult(int a, int b, int expected)
     {
         int result = _sut.Multiply(a, b);
