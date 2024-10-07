@@ -9,6 +9,10 @@ pipeline {
                     reuseNode true
                 }
             }
+            
+            environment {
+                DOTNET_CLI_HOME = "/tmp/dotnet_tools"  // Set the tools directory to a path Jenkins can access
+            }
 
             steps {
                 sh '''
