@@ -1,19 +1,16 @@
 pipeline {
     agent any
     stages {
-        stage('Build') {
-            steps {
-                echo 'Building..'
-            }
-        }
         stage('Test') {
-            steps {
-                echo 'Testing..'
+            agent {
+                docker {
+                    image 'mcr.microsoft.com/dotnet/sdk:8.0'
+                    reuseNode true
+                }
             }
-        }
-        stage('Deploy') {
+
             steps {
-                echo 'Deploying....'
+                sh 'ls -la'
             }
         }
     }
