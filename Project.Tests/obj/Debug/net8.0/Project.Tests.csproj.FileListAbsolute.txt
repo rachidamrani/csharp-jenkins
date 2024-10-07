@@ -99,3 +99,4 @@
 /Users/rachidamrani/Workspace/Jenkins-CI-CD-training/csharp-jenkins/Project.Tests/obj/Debug/net8.0/Project.Tests.pdb
 /Users/rachidamrani/Workspace/Jenkins-CI-CD-training/csharp-jenkins/Project.Tests/obj/Debug/net8.0/Project.Tests.genruntimeconfig.cache
 /Users/rachidamrani/Workspace/Jenkins-CI-CD-training/csharp-jenkins/Project.Tests/obj/Debug/net8.0/ref/Project.Tests.dll
+/Users/rachidamrani/Workspace/Jenkins-CI-CD-training/csharp-jenkins/Project.Tests/obj/Debug/net8.0/Project.Tests.sourcelink.json

@@ -35,10 +35,12 @@ public class CalculatorTests
         Assert.Throws<DivideByZeroException>(() => _sut.Divide(2, 0));
     }
 
-    [Fact]
-    public void MultiplyByZero_ReturnsZero()
+    [Theory]
+    [InlineData(2, 4, 8)]
+    [InlineData(-2, -3, 6)]
+    public void Multiply_TwoNumbers_ReturnsCorrectResult(int a, int b, int expected)
     {
-        int result = _sut.Multiply(2, 0);
-        Assert.Equal(0, result);
+        int result = _sut.Multiply(a, b);
+        Assert.Equal(expected, result);
     }
 }

@@ -9,3 +9,4 @@
 /Users/rachidamrani/Workspace/Jenkins-CI-CD-training/csharp-jenkins/MyClassLibrary/obj/Debug/net8.0/refint/MyClassLibrary.dll
 /Users/rachidamrani/Workspace/Jenkins-CI-CD-training/csharp-jenkins/MyClassLibrary/obj/Debug/net8.0/MyClassLibrary.pdb
 /Users/rachidamrani/Workspace/Jenkins-CI-CD-training/csharp-jenkins/MyClassLibrary/obj/Debug/net8.0/ref/MyClassLibrary.dll
+/Users/rachidamrani/Workspace/Jenkins-CI-CD-training/csharp-jenkins/MyClassLibrary/obj/Debug/net8.0/MyClassLibrary.sourcelink.json
